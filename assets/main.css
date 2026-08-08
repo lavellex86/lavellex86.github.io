@@ -1,0 +1,158 @@
+:root {
+    --background-2: #1C1C1C;
+    --background-1: #121212;
+    --blue: #4682B4;
+    --purple: #9966CC;
+    --red: #C7676D;
+    --orange: #FFA500;
+    --green: #89A791;
+    --gold: #FFD700;
+    --text-1: #D3D3D3;
+    --text-2: #808080;
+    --text-3: #A6A6A6;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+    background-color: var(--background-1);
+    margin: 0;
+    font-family: Helvetica, Arial;
+    color: var(--text-2);
+}
+
+.blue {
+    color: var(--blue);
+}
+.purple {
+    color: var(--purple);
+}
+.red {
+    color: var(--red);
+}
+.orange {
+    color: var(--orange);
+}
+.green {
+    color: var(--green);
+}
+.gold {
+    color: var(--gold);
+}
+.text-3 {
+    color: var(--text-3)
+}
+
+nav {
+    font-size: 1.2em;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: rgba(18, 18, 18, 0.8);
+    align-items: center;
+}
+nav > div {
+    align-items: center;
+}
+nav > p, nav > div > p {
+    margin: 18px 10px;
+    padding: 0;
+    color: var(--purple);
+}
+nav > div > p > a {
+    text-decoration: none;
+    color: var(--text-2);
+}
+nav > div > p > a:hover, nav > p > a:hover {
+    text-decoration: underline;
+}
+nav > p > a {
+    text-decoration: none;
+}
+nav > div > p > a > i {
+    font-size: 30px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background-1);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--text-2);
+    border-radius: 10px;
+    border: 3px solid var(--background-1);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--purple);
+}
+
+.horizontal-flex {
+    display: flex;
+    flex-direction: row;
+}
+.vertical-flex {
+    display: flex;
+    flex-direction: column;
+}
+.block {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+.center-items {
+    justify-content: center;
+}
+
+.no-link-style {
+    text-decoration: none;
+    color: var(--text-2);
+}
+.underline {
+    text-decoration: underline;
+}
+
+.background-black {
+    background-color: color;
+}
+
+.overflow-x-scroll {
+    overflow-x: scroll;
+}
+.overflow-auto {
+    overflow: auto;
+}
+
+.width-100 {
+    width: 100%;
+}
+.width-100-force {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.scroll-snap {
+    scroll-snap-type: x mandatory;
+}
+
+.more-than-half {
+    width: 70%;
+}
+.less-than-half {
+    width: 30%;
+}
+
+footer {
+    padding: 5px 10px;
+}
