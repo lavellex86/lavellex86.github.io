@@ -59,14 +59,14 @@ nav > p, nav > div > p {
     padding: 0;
     color: var(--purple);
 }
-nav > div > p > a {
+a {
     text-decoration: none;
-    color: var(--text-2);
+    color: var(--purple);
 }
-nav > div > p > a:hover, nav > p > a:hover {
+a:hover {
     text-decoration: underline;
 }
-nav > p > a {
+a {
     text-decoration: none;
 }
 nav > div > p > a > i {
