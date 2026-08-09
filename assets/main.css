@@ -156,3 +156,7 @@ nav > div > p > a > i {
 footer {
     padding: 5px 10px;
 }
+
+.no-bullet-style {
+    list-style-type: none;
+}

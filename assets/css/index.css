@@ -20,6 +20,9 @@ h1 > b {
 h1 > span {
     color: var(--text-3);
 }
+h2 > span {
+    color: var(--purple);
+}
 h3 {
     color: var(--text-1);
     font-size: clamp(20px, 2.5vw, 30px);
